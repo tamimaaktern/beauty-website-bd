@@ -49,7 +49,7 @@
     width: 100%;
 }
 .sc-dl h6{
-    font-size: small;
+    font-size: medium;
     text-align: center;
 }
 .dl img{
@@ -65,7 +65,84 @@
     width: 100%;
     border-radius: 5px;
 }
+.crd-bdy h5{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+.crd-bdy h5:hover{
+    color: #ff3d71;
+}
+.crd-bdy p{
+    color: #ff3d71;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.sale{
+    background-color: #ff3d71;
+    color: white;
+    height: 15%;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.star{
+    text-align: center;
+}
+.fa-star{
+    font-size: 11px;
+}
+.crd-ftr{
+    background-color: #5c0f8b;
+}
+.crd-ftr:hover{
+    background-color: #ff3d71;
+}
+.crd-ftr a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-left: 50px;
+}
+.crd-mk{
+    display: grid;
+    grid-template-columns: 282px 282px 282px 280px;
+}
 .app img{
     height: 100%;
     width: 100%;
+    color: wheat;
+}
+footer{
+    height: 100%;
+    width: 100%;
+    background-color:#192038;
+}
+.ftr{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+.ftr1 li{
+    list-style: none;
+    color: white;
+}
+.ftr1 a{
+    text-decoration: none;
+    color: white;
+}
+.ftr1 a:hover{
+    color: #ff3d71;
+}
+.ftr1 hr{
+    width: 200px;
+    color: white;
+}
+.ftr1 h3{
+    color: white;
+    font-size: 20px;
 }
